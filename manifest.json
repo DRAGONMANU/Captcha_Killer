@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Fight against Captcha",
+  "version": "0.1.0",
+  "description": "Extension to get rid of that Captcha",
+
+  "content_scripts": [
+  	{
+    "js": ["moodle.js"],
+    "matches": ["https://moodle.iitd.ac.in/login/index.php"]
+  	},
+ 	{
+    "js": ["webmail.js"],
+    "matches": ["https://webmail.iitd.ernet.in/roundcube/*"]
+  	}
+]
+
+}
