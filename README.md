@@ -15,7 +15,7 @@ For Developers:
 
 For Users:
 
- Download the .crx file and drag the file to chrome
+ Download the .crx file. Open the chrome extensions tab and drag the file into Chrome
  It will show a general warning, but if you believe in me click continue.
  Thats it enjoy!
 
