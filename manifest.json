@@ -10,9 +10,13 @@
     "js": ["moodle.js"],
     "matches": ["https://moodle.iitd.ac.in/login/index.php"]
   	},
- 	{
+ 	  {
     "js": ["webmail.js"],
     "matches": ["https://webmail.iitd.ernet.in/roundcube/*"]
+  	},
+    {
+    "js": ["webmail.js"],
+    "matches": ["https://webmail.iitd.ac.in/roundcube/*"]
   	}
 ]
 
